@@ -1,4 +1,4 @@
-var jade = require('./<%= dependencies %>');
+var jade = require('<%= dependencies %>');
 
 (function (jade) {
 	module.exports = <%= compiledTemplate %>;
